@@ -117,3 +117,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# custom files
+.idea/*
