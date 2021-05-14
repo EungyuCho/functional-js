@@ -1,0 +1,23 @@
+{
+  "name": "functionaljs",
+  "version": "1.0.0",
+  "description": "<h1>Functional Javascript📚</h1>",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EungyuCho/functional-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EungyuCho/functional-js/issues"
+  },
+  "homepage": "https://github.com/EungyuCho/functional-js#readme"
+}

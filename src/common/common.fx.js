@@ -1,41 +1,8 @@
 const curry = f => (a, ..._) => _.length ? f(a, ..._) : (..._) => f(a, ..._);
 
-const map = curry((f, iter) => {
-    let res = [];
-    iter = iter[Symbol.iterator]();
-    let cur;
-    while (!(cur = iter.next()).done) {
-        const a = cur.value;
-        res.push(f(a));
-    }
-    return res;
-});
+const go = (...args) => reduce((a, f) => f(a), args);
 
-const filter = curry((f, iter) => {
-    let res = [];
-    iter = iter[Symbol.iterator]();
-    let cur;
-    while (!(cur = iter.next()).done) {
-        const a = cur.value;
-        if (f(a)) res.push(a);
-    }
-    return res;
-});
-
-const reduce = curry((f, acc, iter) => {
-    if (!iter) {                            // 2번째 인자인 acc(초기값)가 없을 경우, iter.next() 를 초기값으로 설정해준다.
-        iter = acc[Symbol.iterator]();
-        acc = iter.next().value;
-    } else {
-        iter = iter[Symbol.iterator]();
-    }
-    let cur;
-    while (!(cur = iter.next()).done) {
-        const a = cur.value;
-        acc = f(acc, a);
-    }
-    return acc;
-});
+const pipe = (f, ...fs) => (...as) => go(f(...as), ...fs);
 
 const take = curry((l, iter) => {
     let res = [];
@@ -49,9 +16,7 @@ const take = curry((l, iter) => {
     return res;
 });
 
-const go = (...args) => reduce((a, f) => f(a), args);
-
-const pipe = (f, ...fs) => (...as) => go(f(...as), ...fs);
+const takeAll = take(Infinity);
 
 const L = {};
 
@@ -63,24 +28,41 @@ L.range = function* (l) {
 };
 
 L.map = curry(function *(f, iter) {
-   iter = iter[Symbol.iterator]();
-   let cur;
-   while (!(cur = iter.next()).done) {
-       const a = cur.value;
-       yield f(a);
-   }
+    for (const a of iter) yield f(a);
 });
 
 L.filter = function* (f, iter) {
-    iter = iter[Symbol.iterator]();
-    let cur;
-    while (!(cur = iter.next()).done) {
-        const a = cur.value;
-        if (f(a)) {
-            yield a;
-        }
+    for (const a of iter) {
+        if (f(a)) yield a;
     }
 };
 
+const map = curry(pipe(L.map, takeAll));
 
-export {map, filter, reduce, go, pipe, curry, take, L};
+const filter = curry(pipe(L.filter, takeAll));
+
+const reduce = curry((f, acc, iter) => {
+    if (!iter) {
+        iter = acc[Symbol.iterator]();
+        acc = iter.next().value;
+    } else {
+        iter = iter[Symbol.iterator]();
+    }
+    let cur;
+    while (!(cur = iter.next()).done) {
+        const a = cur.value;
+        acc = f(acc, a);
+    }
+    return acc;
+});
+
+
+L.entries = function* (obj) {
+    for (const k in obj) yield [k, obj[k]];
+};
+
+const join = curry((sep = ',', iter) =>
+    reduce((a, b) => `${a}${sep}${b}`, iter));
+
+
+export {map, filter, reduce, go, pipe, curry, take, L, join};

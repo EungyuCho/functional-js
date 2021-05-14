@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3dc0da8-ba4b-4e4b-9d74-efe6bafb6260" name="Default Changelist" comment="" />
+    <list default="true" id="a3dc0da8-ba4b-4e4b-9d74-efe6bafb6260" name="Default Changelist" comment="6. Delay1">
+      <change afterPath="$PROJECT_DIR$/docs/7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/delay/delay.ex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/common.fx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/common.fx.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -14,6 +53,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1m9XNStpkFDcQfxUOkRNOigkAzE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,12 +63,52 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.45" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gyu\WebstormProjects\functionalJS\src\product" />
+      <recent name="C:\Users\gyu\WebstormProjects\functionalJS\src\4" />
+      <recent name="C:\Users\gyu\WebstormProjects\functionalJS\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gyu\WebstormProjects\functionalJS\docs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.delay.ex.js">
+    <configuration name="common.fx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/common/common.fx.js" working-dir="$PROJECT_DIR$/src/common">
+      <method v="2" />
+    </configuration>
+    <configuration name="delay.ex.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/delay/delay.ex.js" working-dir="$PROJECT_DIR$/src/delay">
+      <method v="2" />
+    </configuration>
+    <configuration name="fx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/common/fx.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="product.bucket.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/product/product.bucket.js" working-dir="$PROJECT_DIR$/src/product">
+      <method v="2" />
+    </configuration>
+    <configuration name="product.map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/product/product.map.js" working-dir="$PROJECT_DIR$/src/common">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.delay.ex.js" />
+        <item itemvalue="Node.js.product.bucket.js" />
+        <item itemvalue="Node.js.product.map.js" />
+        <item itemvalue="Node.js.common.fx.js" />
+        <item itemvalue="Node.js.common.fx.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,10 +119,173 @@
       <option name="presentableId" value="Default" />
       <updated>1608906739824</updated>
       <workItem from="1608906740857" duration="2893000" />
+      <workItem from="1608936995901" duration="32760000" />
+      <workItem from="1609035134466" duration="15804000" />
+      <workItem from="1609110804199" duration="4366000" />
+      <workItem from="1609227723147" duration="606000" />
+      <workItem from="1609306811700" duration="1400000" />
+      <workItem from="1620957121364" duration="438000" />
     </task>
+    <task id="LOCAL-00001" summary="2. 리스트순회와 이터러블">
+      <created>1608939708482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608939708483</updated>
+    </task>
+    <task id="LOCAL-00002" summary="3. 제네레이터와 이터레이터">
+      <created>1608942920470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608942920470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4. map filter reduce">
+      <created>1608956427708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608956427708</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5. go pipe curry">
+      <created>1608970477374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608970477374</updated>
+    </task>
+    <task id="LOCAL-00005" summary="6. Delay1">
+      <created>1609065193464</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609065193464</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2. 리스트순회와 이터러블" />
+    <MESSAGE value="3. 제네레이터와 이터레이터" />
+    <MESSAGE value="4. map filter reduce" />
+    <MESSAGE value="5. go pipe curry" />
+    <MESSAGE value="6. Delay1" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. Delay1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608942938287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608942938287" />
+    <state width="575" height="646" key="DebuggerActiveHint" timestamp="1609066852573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="575" height="646" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609066852573" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609227733116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609227733116" />
+    <state width="1899" height="339" key="GridCell.Tab.0.bottom" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.0.center" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.0.left" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.0.right" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.1.bottom" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.1.center" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.1.left" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.1.right" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.2.bottom" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.2.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.2.center" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.2.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.2.left" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.2.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.2.right" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.2.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.3.bottom" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.3.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.3.center" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.3.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.3.left" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.3.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="1899" height="339" key="GridCell.Tab.3.right" timestamp="1609083415331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="339" key="GridCell.Tab.3.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609083415331" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1609066988694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609066988694" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1609065196087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609065196087" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608945756992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608945756992" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/product/product.bucket.js</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
