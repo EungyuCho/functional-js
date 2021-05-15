@@ -37,6 +37,22 @@ L.filter = function* (f, iter) {
     }
 };
 
+const isIterable = a => a && a[Symbol.iterator];
+
+L.flatten = function *(iter) {
+    for (const a of iter) {
+        if (isIterable(a)) yield *a;
+        else yield a;
+    }
+}
+
+L.deepFlat = function *f(iter) {
+    for (const a of iter) {
+        if (isIterable(a)) yield *f(a);
+        else yield a;
+    }
+}
+
 const map = curry(pipe(L.map, takeAll));
 
 const filter = curry(pipe(L.filter, takeAll));
@@ -65,4 +81,4 @@ const join = curry((sep = ',', iter) =>
     reduce((a, b) => `${a}${sep}${b}`, iter));
 
 
-export {map, filter, reduce, go, pipe, curry, take, L, join};
+export {map, filter, reduce, go, pipe, curry, take, L, join, takeAll};

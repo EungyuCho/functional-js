@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3dc0da8-ba4b-4e4b-9d74-efe6bafb6260" name="Default Changelist" comment="6. Delay1">
-      <change beforePath="$PROJECT_DIR$/docs/4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/common.fx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/common.fx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product/product.bucket.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/product.bucket.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
       <recent name="C:\Users\gyu\WebstormProjects\functionalJS\docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.delay.ex.js">
+  <component name="RunManager" selected="Node.js.product.bucket.js">
     <configuration name="common.fx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/common/common.fx.js" working-dir="$PROJECT_DIR$/src/common">
       <method v="2" />
     </configuration>
@@ -93,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.delay.ex.js" />
         <item itemvalue="Node.js.product.bucket.js" />
+        <item itemvalue="Node.js.delay.ex.js" />
         <item itemvalue="Node.js.product.map.js" />
         <item itemvalue="Node.js.common.fx.js" />
         <item itemvalue="Node.js.common.fx.js" />
@@ -115,7 +117,8 @@
       <workItem from="1609110804199" duration="4366000" />
       <workItem from="1609227723147" duration="606000" />
       <workItem from="1609306811700" duration="1400000" />
-      <workItem from="1620957121364" duration="555000" />
+      <workItem from="1620957121364" duration="3075000" />
+      <workItem from="1621041726338" duration="894000" />
     </task>
     <task id="LOCAL-00001" summary="2. 리스트순회와 이터러블">
       <created>1608939708482</created>
@@ -183,7 +186,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/product/product.bucket.js</url>
-          <line>45</line>
+          <line>48</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -1,4 +1,4 @@
-import {filter, map, reduce, go, curry, take, L} from "../common/common.fx.js";
+import {filter, map, reduce, go, curry, take, L, pipe, takeAll} from "../common/common.fx.js";
 
 const products = [
     { name: '반팔티', price: 15000, quantity: 1 },
@@ -7,6 +7,9 @@ const products = [
     { name: '후드티', price: 30000, quantity: 4 },
     { name: '바지', price: 25000, quantity: 5 },
 ];
+
+const flatten = pipe(L.flatten, takeAll)
+console.log(flatten(products))
 
 const add = (a, b) => a + b;
 const sum = curry((f, iter) => go(
