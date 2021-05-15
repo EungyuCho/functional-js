@@ -4,10 +4,13 @@ import {find, go} from "../common/common.fx.js";
 //
 // console.log(find(u => u.id === 2, user));
 
+async function returnOne(a) {
+    return new Promise(resolve => setTimeout(() => resolve(a + 100), 1000))
+}
 go(
     Promise.resolve(1),
         a => a + 10,
-        a => Promise.reject("ㅜㅜ"),
+        a => returnOne(a),
     a => a + 1000,
     a => a + 10000,
     console.log

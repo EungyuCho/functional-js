@@ -11,13 +11,16 @@ const go1 = (a, f) => a instanceof  Promise ? a.then(f) : f(a)
 const take = curry((l, iter) => {
     let res = [];
     iter = iter[Symbol.iterator]();
-    let cur;
-    while (!(cur = iter.next()).done) {
-        const a = cur.value;
-        res.push(a);
-        if (res.length == l) return res;
-    }
-    return res;
+    return function recur() {
+        let cur;
+        while (!(cur = iter.next()).done) {
+            const a = cur.value;
+            if (a instanceof Promise) return a.then(a => (res.push(a), res).length === l ? res : recur());
+            res.push(a);
+            if (res.length === l) return res;
+        }
+        return res;
+    }();
 });
 
 const takeAll = take(Infinity);
@@ -32,7 +35,7 @@ L.range = function* (l) {
 };
 
 L.map = curry(function *(f, iter) {
-    for (const a of iter) yield f(a);
+    for (const a of iter) yield go1(a, f);
 });
 
 L.filter = function* (f, iter) {
