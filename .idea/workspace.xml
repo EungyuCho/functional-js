@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3dc0da8-ba4b-4e4b-9d74-efe6bafb6260" name="Default Changelist" comment="6. Delay1">
+      <change afterPath="$PROJECT_DIR$/src/async/aysnc.controll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/common.fx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/common.fx.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product/product.bucket.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/product.bucket.js" afterDir="false" />
@@ -64,7 +65,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JavaScript" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,14 +78,14 @@
       <recent name="C:\Users\gyu\WebstormProjects\functionalJS\docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.product.bucket.js">
+  <component name="RunManager" selected="Node.js.aysnc.controll.js">
+    <configuration name="aysnc.controll.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/async/aysnc.controll.js" working-dir="$PROJECT_DIR$/src/async">
+      <method v="2" />
+    </configuration>
     <configuration name="common.fx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/common/common.fx.js" working-dir="$PROJECT_DIR$/src/common">
       <method v="2" />
     </configuration>
     <configuration name="delay.ex.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/delay/delay.ex.js" working-dir="$PROJECT_DIR$/src/delay">
-      <method v="2" />
-    </configuration>
-    <configuration name="fx.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/common/fx.js" working-dir="$PROJECT_DIR$/src">
       <method v="2" />
     </configuration>
     <configuration name="product.bucket.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/product/product.bucket.js" working-dir="$PROJECT_DIR$/src/product">
@@ -95,10 +96,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.aysnc.controll.js" />
         <item itemvalue="Node.js.product.bucket.js" />
         <item itemvalue="Node.js.delay.ex.js" />
         <item itemvalue="Node.js.product.map.js" />
-        <item itemvalue="Node.js.common.fx.js" />
         <item itemvalue="Node.js.common.fx.js" />
       </list>
     </recent_temporary>
@@ -118,7 +119,7 @@
       <workItem from="1609227723147" duration="606000" />
       <workItem from="1609306811700" duration="1400000" />
       <workItem from="1620957121364" duration="3075000" />
-      <workItem from="1621041726338" duration="894000" />
+      <workItem from="1621041726338" duration="4610000" />
     </task>
     <task id="LOCAL-00001" summary="2. 리스트순회와 이터러블">
       <created>1608939708482</created>
